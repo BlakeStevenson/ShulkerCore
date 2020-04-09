@@ -1,0 +1,36 @@
+name: ShulkerCore
+version: ALPHA-0.0.1
+author: Blake Stevenson
+main: me.blakestevenson.ShulkerCore.Main
+api-version: 1.15
+website: https://blakestevenson.me
+load: STARTUP
+commands:
+  kit:
+    description: Get a kit!
+  clear:
+    description: Clear your inventory.
+    aliases: ["ci", "clearinventory", "clearinv"]
+  msg:
+    description: Message another player.
+    aliases: ["m", "tell", "message", "w"]
+  tp:
+    description: Teleport
+    aliases: ["teleport"]
+  gamemode:
+    description: Update the gamemode of a player.
+    aliases: ["gm"]
+    syntax: /<command> <survival/creative/adventure/spectator> [player]
+  fly:
+    description: Allows flight
+    syntax: /<command>
+  speed:
+    description: Set walking or flight speed.
+    aliases: ["sp"]
+    syntax: /<command>
+  heal:
+    description: Heal a player
+    syntax: /<command> [player]
+  feed:
+    description: Feed a player
+    syntax: /<command> [player]
